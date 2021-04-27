@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,300;1,600&display=swap');
 
 :root {
-  /* --border-width: 1px;
-  --border-style: solid;
-  --font-size-small: 12px;
-  --font-weight-semibold: 500;
-  --size-2: 20px; */
-
   /* background */
   --color-bg-dark: #1e2228;
   --color-bg-primary: #22272e;
@@ -14,29 +8,10 @@
 
   /* text */
   --color-text-primary: #adbac7;
-
-  /* container width */
-  /* --vertical-scroll: 20px;
-  --mobile: calc(300px + var(--vertical-scroll));
-  --tablet: calc(640px + var(--vertical-scroll));
-  --desktop: calc(900px + var(--vertical-scroll));
-  --desktop-lg: calc(1140px + var(--vertical-scroll)); */
-
-  /* animation */
-  /* --animation-fast: 0.1s;
-  --animation-slow: 0.3s;
-
-  --animation-transition: all 0.2s ease-in-out; */
 }
-
-/* * {
-  box-sizing: border-box;
-} */
 
 body {
   font-family: 'Montserrat', sans-serif;
-  /* font-size: 14px;
-  line-height: 1.5; */
   color: var(--color-text-primary);
   background-color: var(--color-bg-dark);
 }
@@ -66,7 +41,6 @@ ol {
 
 p {
   margin: 5px 2px 15px;
-  /* font-size: 16px; */
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   font-style: italic;
